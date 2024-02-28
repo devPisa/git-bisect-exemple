@@ -23,8 +23,10 @@ body{
     color: #f25333;
 }
 .codigo{
+    background-color: #46363c;
+    border-radius: 6px;
     padding: 2px;
-    border: solid 1px #ccc;
+    border: solid 1px #ac7a7a;
     color: #f25333;
 }
 
