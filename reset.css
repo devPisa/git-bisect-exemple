@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html{
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+  }
+  
+  body{
+    background: #191013;
+    color: #8d8a87;
+  }
+ a{
+    text-decoration: none;
+    color: #8d8a87;
+ }
+  ul{
+    list-style: none;
+  }

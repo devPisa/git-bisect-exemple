@@ -4,11 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Git Bisect</title>
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
 </head>
 <body>
   <div class="header">
-  <img src="/assets/Git-Icon-1788C.png" height="65px" width="65px" alt="git"/>
+    <img src="/assets/Git-Icon-1788C.png" height="65px" width="65px" alt="git"/>
     <ul class="nav">
       <li><a href="#">Git Bisect</a></li>
       <li><a href="#">Comandos Basicos</a></li>
@@ -16,7 +17,7 @@
       <li><a href="#">Ajuda</a></li>
     </ul>
   </div>
-  <div class="header">
+  <div class="page">
     <h2>Git Bisect</h2>
     <p>Este comando utiliza um algoritmo de pesquisa binária para descobrir qual o commit no histórico do seu projeto introduziu um "bug" (problema). Você o utiliza informando primeiro a um commit "<span class="laranja">bad</span>" (ruim) que é informado por conter o bug e um commit "<span class="laranja">good</span>" (bom) informado antes da introdução do bug. Então o comando git bisect seleciona um commit entre estes dois pontos extremos e pergunta se o commit selecionado é "bom" ou "ruim". Continua estreitando o intervalo até encontrar o commit exato responsável pela introdução da alteração.</p>
 </div>
